@@ -49,5 +49,35 @@ body{
   opacity: 1;
   border-radius: 50px;
   border: none;
+}
+.menu{
+   background: #FFFFFF;
+   
+}
+.menu ul{
+  display: flex;
+  justify-content: center;
+  gap:4rem;
+}
+.caption {
+  font-family: 'Barlow';
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: -10px;
+  padding-left: 0.5rem;
+}
+.menu-item ul{
+  list-style: none;
 
+}
+.menu-item ul li a{
+  text-decoration: none;
+  
+  
+}
+.menu-item img{
+ width: 42px;
+height: 42px;
 }

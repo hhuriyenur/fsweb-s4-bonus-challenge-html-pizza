@@ -3,6 +3,8 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Hero img ve css özellikleri */
 .container{
  background-image: url("public/assets/iteration-1/home-banner.png");
   background-size: cover;
@@ -50,6 +52,8 @@ body{
   border-radius: 50px;
   border: none;
 }
+
+/* Menü içerikleri */
 .menu{
    background: #FFFFFF;
    
@@ -80,4 +84,153 @@ body{
 .menu-item img{
  width: 42px;
 height: 42px;
+}
+
+/* Özel menü paketleri */
+.detay{
+  background: #FAF7F2;
+
+}
+
+.menu-content{
+  display: flex;
+  gap: 20px;
+  max-width: 1180px;
+  margin: 0 auto;
+  align-items: flex-start; 
+  padding-top: 50px;
+}
+
+
+.right-column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 530px;
+}
+
+
+.special-menu{
+  position: relative;
+  flex: 0 0 531px;            
+  height: 449px;              
+  border-radius: 12px;
+  overflow: hidden;
+  background-image: url("public/assets/iteration-2/cta/kart-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.special-menu2,
+.special-menu3{
+  position: relative;
+  flex: 0 0 auto;
+  height: 220px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.special-menu2{ 
+  background-image: url("public/assets/iteration-2/cta/kart-2.png");
+  
+ }
+.special-menu3{ 
+  background-image: url("public/assets/iteration-2/cta/kart-3.png"); 
+  /* opacity: 0.5; */
+  margin-top: -10px;
+  /* background-repeat: repeat-x; */
+}
+
+
+.special-inner{
+  position: absolute;
+  left: 32px;
+  top: 32px;
+  right: 32px;
+  bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+
+ 
+}
+
+
+.card-inner{
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+}
+
+
+.special-menu h2{
+  font-family: 'Quattrocento';
+  font-size: 60px;
+  line-height: 72px;
+  margin: 0;
+  font-weight: 700;
+  color: #fff;
+  text-transform: none;
+  letter-spacing: -0.02em;
+}
+
+.special-menu .subtitle{
+  font-family: 'Barlow';
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-top: 8px;
+}
+
+
+.special-menu2 h3,
+.special-menu3 h3{
+  font-family: 'Barlow';
+  font-size: 32px;
+  margin: 0;
+  font-weight: 700;
+}
+.special-menu2 h3{
+  color: white;
+}
+.special-menu3 h3{
+  color:black;
+}
+
+
+
+.btn-menu{
+  border: none;
+  background: #fff;
+  color: #CE2829; 
+  padding: 10px 18px;
+  border-radius: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  align-self: flex-start;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+/* -----menü altındaki metinler---- */
+.item p{
+  font-family: 'Satisfy';
+  color: #CE2829;
+  font-weight: 400;
+  font-size: 32px;
 }

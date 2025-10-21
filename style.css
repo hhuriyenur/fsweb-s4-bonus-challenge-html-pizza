@@ -55,13 +55,14 @@ body{
 
 /* Menü içerikleri */
 .menu{
-   background: #FFFFFF;
-   
+   background: #FFFFFF; 
 }
+
 .menu ul{
   display: flex;
   justify-content: center;
   gap:4rem;
+  
 }
 .caption {
   font-family: 'Barlow';
@@ -99,6 +100,8 @@ height: 42px;
   margin: 0 auto;
   align-items: flex-start; 
   padding-top: 50px;
+  
+  
 }
 
 
@@ -120,6 +123,7 @@ height: 42px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
   
 }
 
@@ -247,4 +251,45 @@ height: 42px;
   flex-direction: column;
   align-items: center;
  
+}
+.menu-eng {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  align-content: space-around;             
+  gap: 20px;               
+  padding: 20px; 
+           
+}
+.btn-eng{
+  width: 150px;
+  height: 66px;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  border-radius: 50px;
+  background: white;
+  border: none;
+  text-align: center;
+  font-family: 'Barlow';
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  position: relative; 
+  display: flex;               
+  align-items: center;         
+  justify-content: center;
+}
+.btn-eng img {
+  width: 42px;
+  height: 42px;
+}
+.btn-eng:nth-child(2){
+  background: black;
+  color: white;
+}
+.btn-eng:nth-of-type(4),.btn-eng:nth-of-type(5),.btn-eng:nth-of-type(6){
+  flex-grow: 0.1;
 }

@@ -293,3 +293,67 @@ height: 42px;
 .btn-eng:nth-of-type(4),.btn-eng:nth-of-type(5),.btn-eng:nth-of-type(6){
   flex-grow: 0.1;
 }
+.urunler{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.frame{
+  background: white;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 32px;
+}
+.urunDetay {
+  display: flex;
+  flex-direction: column;
+  
+  
+  gap: 10px;
+  
+}
+.urunDetay img {
+  width: 270.6666564941406px;
+  height: 265px;
+}
+.urunDetay p{
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+.ince{
+  font-family:'Barlow';
+  font-weight: 600;
+  font-weight: bold;
+  font-size: 16px;
+  color:#1B1B1BB2
+}
+.kalin{
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0%;
+  
+}
+.ucret {
+  display: flex;
+  gap:20px; 
+}
+.left{
+  margin-right: 100px;
+}
+.ucret .ince:first-child {
+  text-align: left;
+}
+.ucret .ince:nth-child(2),
+.ucret .kalin {
+  display: flex;
+  gap: 5px;
+}

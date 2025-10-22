@@ -90,6 +90,7 @@ height: 42px;
 /* Özel menü paketleri */
 .detay{
   background: #FAF7F2;
+  padding-bottom: 50px;
 
 }
 
@@ -299,6 +300,7 @@ height: 42px;
   align-content: center;
   gap: 40px;
   margin-top: 30px;
+  
 }
 .frame{
   background: white;
@@ -356,4 +358,85 @@ height: 42px;
 .ucret .kalin {
   display: flex;
   gap: 5px;
+}
+/* --------footer bölümü-------- */
+footer{
+   background: black;
+   padding-top: 100px;
+   
+}
+.footerLogo{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.footerLogo img{
+  width: 251px;
+  height: 100px;
+  padding-bottom: 20px;
+  
+}
+.footerContact{
+  display: flex;
+  gap: 10px;
+  
+}
+/* .footerContact:first-child(){
+  margin-top: 20px;
+} */
+.footerContact p{
+  color: white;
+  position: relative;
+  top: -15px;
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+
+  
+}
+.footerContact img{
+  width: 28px;
+  height: 28px;
+}
+.lastSection{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.hotMenu{
+  color: white;
+  position: relative;
+  top:50px;
+}
+.hotMenu h3{
+  font-family: 'Barlow';
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+}
+.hotMenu p{
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+}
+.instagram{
+  width:20%;
+  position: relative;
+  top:50px;
+}
+.instagram h3{
+  color:white;
+  font-family: 'Barlow';
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+}
+.photo{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

@@ -440,3 +440,22 @@ footer{
   justify-content: space-around;
   flex-wrap: wrap;
 }
+hr{
+  margin-top: 100px;
+  border: none; 
+  border-top: 1px solid #838282; /* çok açık gri */
+  
+}
+.copyrigth{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 255px;  
+  padding-bottom: 20px;
+  
+}
+.copyrigth img{
+  width: 40px;
+  height: 40px;
+  margin-right: 0;
+}
